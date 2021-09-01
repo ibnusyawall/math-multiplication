@@ -1,0 +1,12 @@
+html, body {
+     font-family: 'Josefin Sans', sans-serif;
+}
+.icon {
+      text-align: center;
+}
+.btn-lg {
+      width: 210px;
+}
+#menu-score {
+      padding: 120px;
+}
