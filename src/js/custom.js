@@ -113,6 +113,7 @@ $(document).ready(function() {
                 $(this).addClass('btn-outline-dark').removeClass('btn-outline-success')
             }, 1000)
         } else {
+            navigator.vibrate(25)
             $(this).addClass('btn-outline-danger').removeClass('btn-outline-dark')
             var skor = parseInt(db.getItem('math:score'))
             if ((score >= skor)) db.setItem('math:score', score - 1)
